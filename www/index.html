@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" media="all and (orientation:landscape)" href="./css/landscape.css">
+    <link rel="stylesheet" media="all and (orientation:portrait)" href="./css/portrait.css">
+
+</head>
+
+<body>
+
+    <img src="./images/camera.jpg" class="camera">
+
+    <div class="btnsCtrl">
+        <form action="./php/poweroff.php">
+
+            <input id="power" type="submit" value="Shutdown">
+
+        </form>
+
+        <form action="./php/screenshot.php">
+
+            <input id="scrsht" type="submit" value="Screenshot">
+
+        </form>
+    </div>
+
+    <div class="btnsRow1">
+
+        <form action="./php/forward.php">
+
+            <input type="submit" value="Forward">
+
+        </form>
+    </div>
+
+    <div class="btnsRow2">
+
+        <form action="./php/left.php">
+
+            <input type="submit" value="Left">
+
+        </form>
+
+        <form action="./php/center.php">
+
+            <input type="submit" value="Center">
+
+        </form>
+
+        <form action="./php/right.php">
+
+            <input type="submit" value="Right">
+
+        </form>
+
+    </div>
+
+    <div>
+
+        <form action="./php/back.php">
+
+            <input class="btnsRow3" type="submit" value="Back">
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

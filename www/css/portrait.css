@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+.camera {
+    width: 100%;
+}
+
+.btnsCtrl {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#power {
+    width: 20vw;
+    height: 10vw;
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border-color: black;
+    border-radius: 32px;
+}
+
+#scrsht {
+    width: 30vw;
+    height: 20vw;
+    font-size: 5vw;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border-color: black;
+    border-radius: 32px;
+}
+
+.btnsRow1 {
+    margin: 0;
+}
+
+.btnsRow2 {
+    display: flex;
+}
+
+.btnsRow3 {
+    width: 30vw;
+    height: 30vw;
+}

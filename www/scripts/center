@@ -1,0 +1,6 @@
+#!/bin/bash
+
+gpio mode 1 pwm
+gpio pwm-ms
+gpio pwmc 200
+gpio pwm 1 130
